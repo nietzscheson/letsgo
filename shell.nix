@@ -11,7 +11,8 @@ pkgs.mkShell {
     neovim
     httpie
     pre-commit
-    go
+    go_1_21
+    delve
   ];
 
   GIT_EDITOR = "${pkgs.neovim}/bin/nvim";
